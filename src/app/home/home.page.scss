@@ -3,8 +3,68 @@ ion-content{
   --padding-top: 24px;
   --padding-start: 24px;
   --padding-end: 24px;
+  --background: linear-gradient(to right, blue, red, orange);
+
 }
 
 ion-item{
   margin: 16px 0;
+border-radius: 50px;
 }
+
+
+.ion{
+font-size: 24px;
+font-family: cursive;
+color:red;
+}
+
+
+.ion2{
+  font-size: 24px;
+  font-family: cursive;
+  color: blue;
+  --background:gray;
+ 
+
+}
+.h3{
+  font-size: 24px;
+font-family: cursive;
+color:green;
+}
+
+
+#h1{
+  font-size: 24px;
+font-family: cursive;
+color: pink;
+}
+
+
+#ion3{
+  font-size: 24px;
+  font-family: cursive;
+  color:white;
+  --background:gray;
+}
+
+
+#ion4{
+  font-size: 20px;
+  font-family: cursive;
+  color:Purple;
+}
+
+
+#ion5{
+  font-size: 20px;
+  font-family: cursive;
+  color:Purple;
+}
+
+
+
+
+
+

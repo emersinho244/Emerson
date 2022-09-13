@@ -1,13 +1,15 @@
-<ion-content>
+<ion-content >
   <ion-item>
-    <ion-label>Qtd de cigarros/dia</ion-label>
-    <ion-input type="number" [(ngModel)]="cigarrosPorDia" placeholder="Ex: 5"></ion-input>
+    <ion-label class="ion">Qtd de cigarros/dia</ion-label>
+    <ion-input type="number" [(ngModel)]="cigarrosPorDia" placeholder="Ex: 5" id="ion5"></ion-input>
   </ion-item>
   <ion-item>
-    <ion-label>Qtd anos fumando</ion-label>
-    <ion-input type="number" [(ngModel)]="anosFumando" placeholder="Ex: 10"></ion-input>
+    <ion-label class="ion2">Qtd anos fumando</ion-label>
+    <ion-input type="number" [(ngModel)]="anosFumando" placeholder="Ex: 10" id="ion4"></ion-input>
   </ion-item>
-  <ion-button (click)="calcular()">Calcular</ion-button>
-  <h3>Você perdeu:</h3>
-  <h1>{{diasPerdidos.toFixed(0)}} dias</h1>
+  <ion-button (click)="calcular()" id="ion3">Calcular</ion-button>
+  <h3 class="h3">Você perdeu:</h3>
+  <h1 id="h1">{{diasPerdidos.toFixed(0)}} Dias</h1>
+  <img src="../../assets/meme.png.crdownload">
+  <img src="../../assets/po.png" height="315" width="350">
 </ion-content>
